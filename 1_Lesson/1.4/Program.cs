@@ -1,7 +1,7 @@
 ﻿// Console.WriteLine("ВВедите число: ");
 // var s = Console.ReadLine();
 // int N = s == null ? 0 : int.Parse(s);
-// Console.Writeline($"{Math.Abs(N)}"); 
+// Console.WriteLine($"{Math.Abs(N)}"); 
 
 
 Console.WriteLine("ВВедите число: ");
