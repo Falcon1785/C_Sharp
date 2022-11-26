@@ -7,9 +7,7 @@ int X = 2;
 
 while(X <= N)
 {
-if(X % 2 == 0)
 
 Console.Write($"{X} ");
-
 X = X + 2;
 }
