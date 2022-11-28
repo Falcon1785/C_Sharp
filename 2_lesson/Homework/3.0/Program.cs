@@ -9,8 +9,8 @@ if(num > 100)
           {
             num = num / 10;
           }
-int Dig3 = num % 10;
-Console.WriteLine(Dig3);
+int Digit3 = num % 10;
+Console.WriteLine(Digit3);
 }
 else
     Console.WriteLine("Third digit is missing");    
