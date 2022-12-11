@@ -2,12 +2,12 @@
 
 int SumNums(int num)
 {
-    int sum = 0;
+    int all_sum = 0;
     while (num > 0)
     {
-        sum = sum + num % 10;
+        all_sum = all_sum + num % 10;
         num /= 10;
     }
-    return sum;
+    return all_sum;
 }
 Console.WriteLine(SumNums(int.Parse(Console.ReadLine())));

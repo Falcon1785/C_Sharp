@@ -3,12 +3,12 @@
 
 int Expo(int A, int B)
 {
-    int all_mult = A;
+    int mult = A;
     for (int count = 1; count < B; count++)
     {
-        all_mult = all_mult * A;
+        mult = mult * A;
     }
-    return all_mult;
+    return mult;
 }
 
 Console.WriteLine("enter A:");

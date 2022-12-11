@@ -1,7 +1,7 @@
 ﻿// Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 
 
-void FillArray(int N, int A,int B)
+void FillShowArray(int N, int A,int B)
 {
     int[] array = new int[N];
     for (int i = 0; i < N; i++) 
@@ -16,5 +16,5 @@ Console.WriteLine("Задайте минимальное число диапаз
 int A = (int.Parse(Console.ReadLine()));
 Console.WriteLine("Задайте максимальное число диапазона:");
 int B = (int.Parse(Console.ReadLine()));
-FillArray(N, A, B);
+FillShowArray(N, A, B);
 Console.WriteLine();
